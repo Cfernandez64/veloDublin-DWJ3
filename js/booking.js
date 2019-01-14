@@ -39,7 +39,6 @@ function Book(){
 
       var storage = new Storage(nomResa, prenomResa, nomStation, velosDispos);
       storage.store();
-      alert('ok');
       e.preventDefault();
     });
   };
