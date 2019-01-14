@@ -1,0 +1,40 @@
+html, body{
+  font-family: "Roboto",sans-serif;
+  margin:0;
+  padding:0;
+  font-size:1rem;
+}
+
+#mapid {
+  width:100%;
+  height:400px;
+ }
+
+#buttonResa, #resa, #cancel, #chrono, #bikeIllus{
+   display: none;
+ }
+
+.carousel-caption{
+  text-shadow:0px 0px 2px black;
+}
+.pictoVelo{
+  width:100%;
+}
+canvas{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width:320px;
+  height:150px;
+}
+
+/*DIAPO*/
+.carousel-indicators i{
+    padding:10px;
+    color:#fff;
+    opacity: 0.6;
+}
+.carousel-indicators i:hover{
+  opacity: 1;
+  cursor: pointer;
+}
